@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #FF5841;
+    color: #FFFFFF;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-left: 220px; /* To accommodate the sidebar width */
+    padding: 20px;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-color: #C53678;
+    color: #FFFFFF;
+    padding: 80px;
+  }
+  
+  /* Typography styles */
+  h1, h2 {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #FF5841;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Other section styles (e.g., about me, blog, portfolio, etc.) */
+  /* Add your custom styling for each section here */
+  
